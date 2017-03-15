@@ -1,0 +1,14 @@
+#+TITLE: M3 Network
+#+SUBTITLE: Min-Max Modular Network
+This is an implementation of the Min-Max Modular Network based on Prof. Lu Bao
+Liang's work *Task Decomposition Based on Class Relations: a Modular Neural
+Network Architecture for Pattern Classification*. [[http://ieeexplore.ieee.org/document/788664/][Link to Paper]]
+
+The implemented multi-class classifier used *libsvm* as the underlying
+classifier for smaller modules. The main idea is to use min-max strategies to
+combine result of multiple classifiers, circumventing the problem that skewed
+datasets are often met in classification tasks.
+
+* Requirement
+- libsvm 3.22
+
